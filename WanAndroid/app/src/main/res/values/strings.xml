@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wan Android</string>
+    <string name="username_view">Username</string>
+    <string name="password_view">password</string>
+    <string name="login_btn">登录</string>
+    <string name="content">加油，冲</string>
+    <string name="textview">加油，冲</string>
+    <string name="shouye">首页</string>
+    <string name="sousuo">搜索</string>
+    <string name="tixi">体系</string>
+    <string name="wode">我的</string>
+    <string name="search_hint">请输入作者名</string>
+    <string name="search_button">搜索</string>
+    <string name="failed">404NotFound!</string>
+    <string name="banner">banner</string>
+    <string name="rootname">rootname</string>
+    <string name="exit_string">退出登录</string>
+</resources>

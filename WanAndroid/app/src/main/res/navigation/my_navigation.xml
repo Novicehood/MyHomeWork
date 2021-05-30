@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="activity.homeFragment"
+        android:label="首页"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="activity.searchFragment"
+        android:label="搜索"
+        tools:layout="@layout/search_fragment" />
+    <fragment
+        android:id="@+id/systemFragment"
+        android:name="activity.systemFragment"
+        android:label="体系"
+        tools:layout="@layout/system_fragment" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="activity.mineFragment"
+        android:label="我的"
+        tools:layout="@layout/mine_fragment" />
+</navigation>
